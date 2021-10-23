@@ -1,6 +1,6 @@
 package problem2;
 
-public class Square extends Shape {
+public class Square extends Shape { 
     protected double side; 
     
     public Square(){
@@ -15,11 +15,11 @@ public class Square extends Shape {
         super(color, filled);
         
     }
-
+    //getters
     public double getSide() {
         return side;
     }
-
+    //setters
     public void setSide(double side) {
         this.side = side;
     }

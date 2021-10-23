@@ -1,6 +1,6 @@
 package problem2;
 
-public class Demo {
+public class Demo { //testing for all the classes and their respective toStrings etc..
 
     public static void main(String[] args) {
         Shape S = new Shape("Red", true);

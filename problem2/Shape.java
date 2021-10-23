@@ -2,7 +2,7 @@ package problem2;
 
 public class Shape{
     protected String color; // colour of the shape
-	protected boolean filled; // Is the shape filled? "Y" or "N"
+	protected boolean filled; // Is the shape filled true or false
 
     public Shape() {
         color = "red";
@@ -22,7 +22,7 @@ public class Shape{
         this.color = color;
     }
 
-    public boolean isFilled() {
+    public boolean isFilled() { // using isFilled in place of get as per best practices
         return filled;
     }
 

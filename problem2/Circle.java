@@ -1,6 +1,6 @@
 package problem2;
 
-public class Circle extends Shape{
+public class Circle extends Shape{ // creates circle class that inherits from Shape
     protected double radius;
 
     public Circle() {
@@ -15,20 +15,21 @@ public class Circle extends Shape{
         super(color, filled);
         this.radius = radius;
     }
-
+    // Getters
     public double getRadius() {
         return radius;
     }
 
-    public void setRadius(double radius) {
-        this.radius = radius;
-    }
     public double getArea() {
          return Math.PI*radius*radius;
     }
 
     public double getPerimeter() {
         return 2*Math.PI*radius;
+    }
+    // setters
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
 
     @Override
