@@ -1,3 +1,5 @@
+package problem1;
+
 public class Demo {
     public static void main(String[] args) {
 Person bob = new Person("Coach Bob", 27, "M"); //test of the person class

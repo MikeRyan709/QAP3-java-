@@ -1,3 +1,5 @@
+package problem1;
+
 public class CollegeStudent extends Student {
     protected String myMajor; // Students Major
     protected int myYear; // accidenmic year the student in in eg. year 1, year 2 etc...

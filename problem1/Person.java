@@ -1,3 +1,5 @@
+package problem1;
+
 class Person {
     protected String myName; //name of the person
     protected int myAge; //age of the person
